@@ -1,0 +1,227 @@
+{
+    "title":"February 2021, March 2021, April 2021, May 2021, June 2021, July 2021, August 2021, September 2021, October 2021, November 2021, December 2021, January 2022",
+    "headers":[
+       {
+          "name":"Data ID",
+          "column":"dataid",
+          "valueType":"TEXT",
+          "type":"java.lang.String",
+          "hidden":true,
+          "meta":true
+       },
+       {
+          "name":"Data",
+          "column":"dataname",
+          "valueType":"TEXT",
+          "type":"java.lang.String",
+          "hidden":false,
+          "meta":true
+       },
+       {
+          "name":"Data description",
+          "column":"datadescription",
+          "valueType":"TEXT",
+          "type":"java.lang.String",
+          "hidden":true,
+          "meta":true
+       },
+       {
+          "name":"ambatondrazaka",
+          "column":"Ambatondrazaka",
+          "valueType":"NUMBER",
+          "type":"java.lang.Double",
+          "hidden":false,
+          "meta":false
+       },
+       {
+          "name":"amparafaravola",
+          "column":"Amparafaravola",
+          "valueType":"NUMBER",
+          "type":"java.lang.Double",
+          "hidden":false,
+          "meta":false
+       },
+       {
+          "name":"andilamena",
+          "column":"Andilamena",
+          "valueType":"NUMBER",
+          "type":"java.lang.Double",
+          "hidden":false,
+          "meta":false
+       },
+       {
+          "name":"anosibe anala",
+          "column":"Anosibe An'ala",
+          "valueType":"NUMBER",
+          "type":"java.lang.Double",
+          "hidden":false,
+          "meta":false
+       },
+       {
+          "name":"moramanga",
+          "column":"Moramanga",
+          "valueType":"NUMBER",
+          "type":"java.lang.Double",
+          "hidden":false,
+          "meta":false
+       }
+    ],
+    "metaData":{
+       "items":{
+          "202102":{
+             "name":"February 2021"
+          },
+          "202103":{
+             "name":"March 2021"
+          },
+          "202104":{
+             "name":"April 2021"
+          },
+          "202105":{
+             "name":"May 2021"
+          },
+          "202106":{
+             "name":"June 2021"
+          },
+          "202107":{
+             "name":"July 2021"
+          },
+          "202108":{
+             "name":"August 2021"
+          },
+          "202109":{
+             "name":"September 2021"
+          },
+          "202110":{
+             "name":"October 2021"
+          },
+          "202111":{
+             "name":"November 2021"
+          },
+          "202112":{
+             "name":"December 2021"
+          },
+          "202201":{
+             "name":"January 2022"
+          },
+          "LAST_12_MONTHS":{
+             "name":"Last 12 months"
+          },
+          "RGATf8waYNn":{
+             "name":"Andilamena"
+          },
+          "dx":{
+             "name":"Data"
+          },
+          "sSDIBMoRBPf":{
+             "uid":"sSDIBMoRBPf",
+             "name":"District"
+          },
+          "sa5YnGTrf5H":{
+             "name":"CHRD Proportion de Paludisme simple"
+          },
+          "lsCrRfgm2hS":{
+             "name":"Ambatondrazaka"
+          },
+          "IsROud9LtOF":{
+             "name":"Amparafaravola"
+          },
+          "CjWDQW1TaaX":{
+             "name":"Moramanga"
+          },
+          "ou":{
+             "name":"Organisation unit"
+          },
+          "JChr4ml1sQq":{
+             "name":"Anosibe An'ala"
+          },
+          "KJkzuaZcgHO":{
+             "name":"CHRD Proportion de FE vue en CPN1 ayant effectué la sérologie de la syphilis (IST/VIH)"
+          },
+          "pe":{
+             "name":"Period"
+          },
+          "D1j4XmmjISs":{
+             "name":"CHRD Proportion de Paludisme grave et compliqué"
+          },
+          "MskGiUGbWJ8":{
+             "uid":"MskGiUGbWJ8",
+             "code":"33",
+             "name":"Alaotra Mangoro"
+          }
+       },
+       "ouNameHierarchy":{
+          "IsROud9LtOF":"/MADAGASCAR/Alaotra Mangoro/Amparafaravola",
+          "RGATf8waYNn":"/MADAGASCAR/Alaotra Mangoro/Andilamena",
+          "CjWDQW1TaaX":"/MADAGASCAR/Alaotra Mangoro/Moramanga",
+          "JChr4ml1sQq":"/MADAGASCAR/Alaotra Mangoro/Anosibe An'ala",
+          "lsCrRfgm2hS":"/MADAGASCAR/Alaotra Mangoro/Ambatondrazaka"
+       },
+       "dimensions":{
+          "dx":[
+             "KJkzuaZcgHO",
+             "sa5YnGTrf5H",
+             "D1j4XmmjISs"
+          ],
+          "pe":[
+             "202102",
+             "202103",
+             "202104",
+             "202105",
+             "202106",
+             "202107",
+             "202108",
+             "202109",
+             "202110",
+             "202111",
+             "202112",
+             "202201"
+          ],
+          "ou":[
+             "lsCrRfgm2hS",
+             "IsROud9LtOF",
+             "RGATf8waYNn",
+             "JChr4ml1sQq",
+             "CjWDQW1TaaX"
+          ],
+          "co":[
+             
+          ]
+       }
+    },
+    "width":8,
+    "rows":[
+       [
+          "KJkzuaZcgHO",
+          "CHRD Proportion de FE vue en CPN1 ayant effectué la sérologie de la syphilis (IST/VIH)",
+          "Nb de FE ayant effectué la sérologie de la syphilis * 100 / Nb FE vues en CPN1",
+          "",
+          "",
+          "",
+          "96.55",
+          "62.16"
+       ],
+       [
+          "sa5YnGTrf5H",
+          "CHRD Proportion de Paludisme simple",
+          "Nb de nouveaux cas dePaludisme simple*100/Nb nouveaux cas toutes causes (Consultants: Nouveaux cas, toutes causes)",
+          "5.67",
+          "4.64",
+          "1.93",
+          "21.78",
+          "1.46"
+       ],
+       [
+          "D1j4XmmjISs",
+          "CHRD Proportion de Paludisme grave et compliqué",
+          "Nb de nouveaux cas dePaludisme grave et compliqué*100/Nb nouveaux cas toutes causes (Consultants: Nouveaux cas, toutes causes)",
+          "",
+          "5.12",
+          "1.4",
+          "1.59",
+          "0.86"
+       ]
+    ],
+    "height":3,
+    "headerWidth":8
+ }

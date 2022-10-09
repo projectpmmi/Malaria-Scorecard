@@ -1,0 +1,200 @@
+{
+  "indicators":[
+    {
+      "name":"Change in estimated malaria incidence (2020 – 2024)",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(New malaria incidence - Original malaria incidence) / (original incidence) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G1",
+      "notInTrack":""
+    },
+    {
+      "name":"Change in estimated malaria mortality (2020 – 2024)",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(New malaria mortality - Original malaria mortality) / (original incidence) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G1",
+      "notInTrack":""
+    },
+    {
+      "name":"Change in estimated malaria cases treated and cured (2020 – 2024)",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(New malaria cases treated and cured - Original malaria cases treated and cured) / (original incidence) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"",
+      "notInTrack":""
+    },
+    {
+      "name":"% of nets distributed",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(number of nets distributed) / (number of nets received) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G2",
+      "notInTrack":""
+    },
+    {
+      "name":"% of fever cases tested with RDT",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of fever cases tested with RDT microscopy) / (Total number of fever cases received) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G2",
+      "notInTrack":""
+    },
+    {
+      "name":"% pregnant women provided IPTp at more than 12 week gestational age",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of pregnant women with IPTp at more than 12 week gestational age) / (Total number of pregnant women at ANC1) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G2",
+      "notInTrack":""
+    },
+    {
+      "name":"% pregnant women receiving IPT x 2 only",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of pregnant women with IPTp x 2 only) / (Total number of pregnant women at ANC2) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G2",
+      "notInTrack":""
+    },
+    {
+      "name":"% pregnant women receiving IPT x 3",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of pregnant women with IPTp x 3) / (Total number of pregnant women at ANC3) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G2",
+      "notInTrack":""
+    },
+    {
+      "name":"% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of malaria cases confirmed treated with first line antimalarial treatment according to national policy) / (Number of malaria cases confirmed) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G3",
+      "notInTrack":""
+    },
+    {
+      "name":"% of severe malaria cases referred for treatment",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of severe malaria cases referred for treatment) / (Total number of severe malaria cases) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G3",
+      "notInTrack":""
+    },
+    {
+      "name":"% of health facilities with stock out",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "formula":"[(Number of health facilities with stock out) / (Total number of health facilities) ] x 100",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G4",
+      "notInTrack":""
+    },
+    {
+      "name":"Number of days of ACT stock out",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G4",
+      "notInTrack":""
+    },
+    {
+      "name":"Number of days of SP stock out",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G4",
+      "notInTrack":""
+    },
+    {
+      "name":"Number of days of Nets stock out",
+      "type":"",
+      "dhisID":"",
+      "target":"",
+      "achieved":"",
+      "dhisName":"",
+      "groupCode":"G4",
+      "notInTrack":""
+    }
+  ],
+  "orgUnitLevel":[
+    {
+      "level1":"",
+      "level2":"",
+      "level3":"",
+      "level4":""
+    }
+  ],
+  "indicatorGroup":[
+    {
+      "code": "G1",
+      "name": "Dépistage CSB",
+      "titre":"Taux de cas téstés positifs par RDT (%)"
+    },
+    {
+        "code": "G2",
+        "name": "Référénce CSB",
+        "titre":"Proportion de cas paludisme grave référé (%)"
+    },
+    {
+        "code": "G3",
+        "name": "Traitement CSB",
+        "titre":"Proportion de cas de paludisme simple confirmés traités (%)"
+    },
+    {
+        "code": "G4",
+        "name": "Prévention CSB",
+        "titre":"Proportion de patients ayant reçu des services de prévention (%)"
+    },
+    {
+        "code": "G5",
+        "name": "Gestion des intrants CSB",
+        "titre":"Taux de disponibilité de produits et médicaments paludisme (%)"
+    },
+    {
+        "code": "G6",
+        "name": "Décès dus au paludisme CHRD",
+        "titre":"Proportion de cas de décès pour paludisme (%)"
+    },
+    {
+        "code": "G7",
+        "name": "Suivi CSB ",
+        "titre":"Suivi des prestations (Nombre)"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+    "title":"Alaotra Mangoro",
+    "headers":[
+      {
+        "name":"Data ID",
+        "column":"dataid",
+        "valueType":"TEXT",
+        "type":"java.lang.String",
+        "hidden":true,
+        "meta":true
+      },
+      {
+        "name":"Data",
+        "column":"dataname",
+        "valueType":"TEXT",
+        "type":"java.lang.String",
+        "hidden":false,
+        "meta":true
+      },
+      {
+        "name":"Data code",
+        "column":"datacode",
+        "valueType":"TEXT",
+        "type":"java.lang.String",
+        "hidden":true,
+        "meta":true
+      },
+      {
+        "name":"Data description",
+        "column":"datadescription",
+        "valueType":"TEXT",
+        "type":"java.lang.String",
+        "hidden":true,
+        "meta":true
+      },
+      {
+        "name":"february 2021",
+        "column":"February 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"march 2021",
+        "column":"March 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"april 2021",
+        "column":"April 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"may 2021",
+        "column":"May 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"june 2021",
+        "column":"June 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"july 2021",
+        "column":"July 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"august 2021",
+        "column":"August 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"september 2021",
+        "column":"September 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"october 2021",
+        "column":"October 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"november 2021",
+        "column":"November 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"december 2021",
+        "column":"December 2021",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      },
+      {
+        "name":"january 2022",
+        "column":"January 2022",
+        "valueType":"NUMBER",
+        "type":"java.lang.Double",
+        "hidden":false,
+        "meta":false
+      }
+    ],
+    "metaData":{
+      "items":{
+        "202102":{
+          "name":"February 2021"
+        },
+        "202103":{
+          "name":"March 2021"
+        },
+        "202104":{
+          "name":"April 2021"
+        },
+        "202105":{
+          "name":"May 2021"
+        },
+        "202106":{
+          "name":"June 2021"
+        },
+        "202107":{
+          "name":"July 2021"
+        },
+        "202108":{
+          "name":"August 2021"
+        },
+        "202109":{
+          "name":"September 2021"
+        },
+        "202110":{
+          "name":"October 2021"
+        },
+        "202111":{
+          "name":"November 2021"
+        },
+        "202112":{
+          "name":"December 2021"
+        },
+        "202201":{
+          "name":"January 2022"
+        },
+        "ou":{
+          "name":"Organisation unit"
+        },
+        "KJkzuaZcgHO":{
+          "name":"CHRD Proportion de FE vue en CPN1 ayant effectué la sérologie de la syphilis (IST/VIH)"
+        },
+        "LAST_12_MONTHS":{
+          "name":"Last 12 months"
+        },
+        "dx":{
+          "name":"Data"
+        },
+        "pe":{
+          "name":"Period"
+        },
+        "D1j4XmmjISs":{
+          "name":"CHRD Proportion de Paludisme grave et compliqué"
+        },
+        "MskGiUGbWJ8":{
+          "name":"Alaotra Mangoro"
+        },
+        "sa5YnGTrf5H":{
+          "name":"CHRD Proportion de Paludisme simple"
+        }
+      },
+      "ouNameHierarchy":{
+        "MskGiUGbWJ8":"/MADAGASCAR/Alaotra Mangoro"
+      },
+      "dimensions":{
+        "dx":[
+          "KJkzuaZcgHO",
+          "sa5YnGTrf5H",
+          "D1j4XmmjISs"
+        ],
+        "pe":[
+          "202102",
+          "202103",
+          "202104",
+          "202105",
+          "202106",
+          "202107",
+          "202108",
+          "202109",
+          "202110",
+          "202111",
+          "202112",
+          "202201"
+        ],
+        "ou":[
+          "MskGiUGbWJ8"
+        ],
+        "co":[]
+      }
+    },
+    "width":16,
+    "rows":[
+      [
+        "KJkzuaZcgHO",
+        "CHRD Proportion de FE vue en CPN1 ayant effectué la sérologie de la syphilis (IST/VIH)",
+        "",
+        "Nb de FE ayant effectué la sérologie de la syphilis * 100 / Nb FE vues en CPN1",
+        "26.92",
+        "100.0",
+        "",
+        "88.89",
+        "112.5",
+        "75.0",
+        "53.85",
+        "91.67",
+        "70.0",
+        "22.22",
+        "55.56",
+        "60.0"
+      ],
+      [
+        "sa5YnGTrf5H",
+        "CHRD Proportion de Paludisme simple",
+        "",
+        "Nb de nouveaux cas dePaludisme simple*100/Nb nouveaux cas toutes causes (Consultants: Nouveaux cas, toutes causes)",
+        "14.46",
+        "11.17",
+        "20.41",
+        "14.73",
+        "3.17",
+        "2.11",
+        "1.77",
+        "2.51",
+        "0.11",
+        "1.18",
+        "1.43",
+        "2.38"
+      ],
+      [
+        "D1j4XmmjISs",
+        "CHRD Proportion de Paludisme grave et compliqué",
+        "",
+        "Nb de nouveaux cas dePaludisme grave et compliqué*100/Nb nouveaux cas toutes causes (Consultants: Nouveaux cas, toutes causes)",
+        "3.19",
+        "1.33",
+        "2.3",
+        "3.86",
+        "1.78",
+        "1.9",
+        "0.44",
+        "0.72",
+        "0.67",
+        "0.54",
+        "0.84",
+        "6.19"
+      ]
+    ],
+    "height":3,
+    "headerWidth":16
+  }
