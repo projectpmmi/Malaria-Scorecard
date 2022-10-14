@@ -7,9 +7,9 @@ layout: default
 * * *
 
 
-**Démarrer avec l’application mobile Malaria Scorecard**
+# **Démarrer avec l’application mobile Malaria Scorecard**
 
-**1. Connexion**
+## **1. Connexion**
 
 Pour se connecter à l’apps mobile vous devez renseigner 3 champs obligatoires :
 
@@ -20,42 +20,26 @@ Pour se connecter à l’apps mobile vous devez renseigner 3 champs obligatoires
 Une fois ces informations renseigner, cliquez sur **Login** pour vous connecter.
 
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.004.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.005.png)
+![Login Screen](./assets/img/scorecard1.png)
 
 
 
-**2. Page d’accueil**
+## **2. Page d’accueil**
 
-Dés d’authentiquassions de vos informations, vous avez accès à la page d’accueil.
+En cas d'authentification réussie, vous accédez accès à la page d’accueil.
+La page d’accueil est divisée en deux (2) zones.
 
-**1**
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.006.png)La page d’accueil est très simple. Elle est divisée en deux (2) zones.
-
-La liste des indicateurs mappés sur dhis2
+1. La liste des indicateurs mappés sur dhis2:
 
 Dans cette partie nous avons la légende en jaune qui indique les indicateurs du data store avec l’icône *i* et les indicateurs de dhis2 mappés avec l’icône *2*.
 
-**2**
+1. La zone des menus
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.007.png)
+![Ecran d'accueil](./assets/img/scorecard2.png)
 
-La zone des menus
+## **3. Niveau Région**
 
-
-
-
-**1**
-
-**2**
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.008.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.009.png)
-
-
-
-
-**3. page Région**
-
-Cliquez sur l’onglet Région juste en bas de apps. Vous verrez la page région s’afficher.
+Cliquez sur l’onglet Région en bas de page. Vous verrez la page région s’afficher.
 
 Vous devez ensuite sélectionner une région dans la zone de recherche puis vous cliquez sur le bouton rouge view pour visualiser deux tableaux.
 
@@ -63,140 +47,118 @@ Vous devez ensuite sélectionner une région dans la zone de recherche puis vous
 - Le tableau des 12 derniers mois de la région sélectionnée
 
 
-
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.010.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.011.png)
-
+![Niveau Region](./assets/img/scorecard3.png)
 
 
 
+Après avoir cliqué sur le bouton view, vous verrez les cartes de scores des différents districts de la région sélectionnée.
 
 
-Après avoir cliquez sur le bouton view, vous verrez le tableau score card des différents districts de la région sélectionnée.
+![Scorecard Region](./assets/img/scorecard4.png)
 
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.012.png)
-
-Score card des districts de la région de western Area
-
+Carte de score des districts de la région de western Area
 
 
 
+![Scorecard Bombali](./assets/img/scorecard5.png)
+
+Carte de scores des districts de la région de Bombali
+
+ 
 
 
+![Scorecard Bombaly 12 derniers mois](./assets/img/scorecard6.png)
 
-
-
-
-
-
-
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.013.png)
-
-Score card des districts de la région de Bombali
+Carte de scores de la région de Bombali des 12 derniers mois
 
 
 
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.014.png)
-
-Score card de la région de Bombali des 12 derniers mois
-
-
-
-
-**4. page district**
+## **4. page district**
 
 Le procéder est le même que pour la région.
 
-Sélectionne le district
+1. Sélectionne le district
 
-Clique sur view
-
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.015.png)
-
-Score card des facility du district freetown
+1. Cliquez sur view.
 
 
+![Carte de scores du district](./assets/img/scorecard7.png)
+
+Carte des scores des etablissements du district freetown.
 
 
-**5. page facility**
+
+## **5. page facility**
 
 Le procéder est le même que pour la région.
 
-Sélectionne le facility
+1. Sélectionne le facility
 
-Clique sur view
+1. Clique sur view
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.016.png)
+![Niveau communautaire](./assets/img/scorecard8.png)
 
 Score card des centres communautaires 
 
 
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.017.png)
+![](./assets/img/scorecard9.png)
 
-Score card des 12 derniers mois du centre agape CHP
+Cartes de scores des 12 derniers mois du centre agape CHP
 
 
 
-**6. Partager le score card**
+## **6. Partager le score card**
 
 Pour partager votre tableau vous devez cliquer le bouton share.
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.018.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.019.png)
+![Partage](./assets/img/scorecard10.png)
 
-Une fois cliquer, le bouton se déroule pour faire place aux réseaux sociaux.
+Une fois cliqué, le bouton se déroule pour faire place aux choix des applications de réseaux sociaux disponibles.
 
-Vous pouvez ensuit sélectionner le réseau social avec le quelle vous voulez partager le score card.
+Vous pouvez ensuite sélectionner le réseau social avec le quelle vous voulez partager la carte de score.
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.020.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.021.png)
-
-
+![](./assets/img/scorecard11.png)
 
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.022.png) ![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.023.png)
 
+![](./assets/img/scorecard12.png)
 Exemple de partage sur tweeter
 
 
 
+## **7. Mode Offline**
 
-**7. Mode Offline**
+Le mode offline vous permet d'afficher les données même en l'absence de connectivité Internet. Ce mode s’active automatiquement dès la perte de l'accès d’internet.
 
-Le mode offline vous permet de travail même n’ayant pas de connexion. Ce mode s’active automatiquement deh interruption d’internet.
-
-` `Le mode Offline vous permet:
+Le mode Offline vous permet:
 
 - De vous connecter avec vos identifiants de connexion
 - De visualiser tous les tableaux score card que vous avez ouvert en Online
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.024.png)
+![](./assets/img/scorecard13.png)
 
 
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.025.png)
+![](./assets/img/scorecard14.png)
 
-Aperçus Offline de la région de western Area
-
-
-
-Lorsque la connection internet est retablir automatiquement l’application passe en mode Online.
-
-
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.026.png)
+Apercu du mode hors linge de la région de Western Area
 
 
 
-1. **Déconnection**
+Lorsque la connection internet est rétablie, l’application passe en mode Online automatiquement.
+
+
+![](./assets/img/scorecard15.png)
+
+
+
+## **8. Déconnection**
 
 Pour se déconnecter vous cliquer sur l’onglet log-out juste en bas à droite de l’application.
 
-![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.027.png)![](./assets/img/Aspose.Words.64064337-93f0-4bfd-bbf3-b5fdd7c4b82a.028.png)
-
-
+![Deconnexion](./assets/img/scorecard16.png)
 
 
 * * *
