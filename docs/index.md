@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Accueil | [Apropos](./about.html) | [Specifications](./specs.md) | [Guides](./userguide.md)
+Accueil | [Apropos](./about.md) | [Specifications](./specs.html) | [Guides](./userguide.md)
 
 
 
