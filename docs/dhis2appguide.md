@@ -4,74 +4,135 @@ layout: default
 [Accueil](./index.md) | [Apropos](./about.md) | [Specifications](./specs.md) | [Guides](./userguide.md)
 
 
-# Guide d'installation de l'application Malaria Dashboard
+# Guide d'installation de l'application Malaria Scorecard
 L'application Malaria dashboard est installable sur une instance de DHIS2. Pour en savoir plus visitez le site de DHIS2 [ici](https://docs.dhis2.org/fr/use/user-guides/dhis-core-version-238/maintaining-the-system/installing-applications.html)
 
 
-# Démarrer avec l'application Malaria Dashboard
+# Démarrer avec l'application Malaria Scorecard
 
-## 1.	Accès à Malaria Dashboard
+## 1. Présentation de l'application
 
-Malaria Dashboard est une apps DHIS2 disponible dans le menu principal de DHIS2. On y accède a partir du menu principal de DHIS2 web c’est-à-dire accessible via un navigateur (google chrome, fire fox mozilla, opera, etc.)
-Pour démarrer MALARIA-DASHBOARD, il faut accéder à son instant DHIS2   en renseignant l’URL dans la barre d’adresse du navigateur (Google Chrome,Firefox ect .), ensuite renseigner les informations de connexion comme suit :
+Malaria scorecard est une application qui permet l'analyse des données du paludisme aux niveaux décentralisé de la pyramide sanitaire. Les indicateurs sont d'abord paramétrées  dans la menu administration, puis elle sont présentées sous forme de tableau au format carte de score.
 
+## 1. Lancer l'application
 
-![Login screen](./assets/img/picture1.png)
+Dans le menu de dhis2, cliquez sue le logo de l'application scorecard pour ouvrir l'app.
 
+![Menu d'application DHIS2](./assets/img/scorecardweb1.png)
 
-Une fois dans l’interface de DHIS2 on y accède en cliquer dans le menu principal sur l’icône de l’application
+## 1. Présentation de la page d'accueil de l'apps
 
-![Menu d'apps](./assets/img/picture2.png)
+Une fois l'application ouverte, une page daccuiel vide avec deux (2) boutons s'affiche:
 
-## 2.	Présentation de l’interface de MALARIA-DASHBOARD
-La barre de menu principale présente deux modules : ADMINISTRATION et DASHBOARD
+- Le premier bouton (**SCORE CARD**) est le bouton permettant d'afficher les fiches d'évaluation en fonction des niveaux d'unités d'organisations.
 
-![Menu Administration](./assets/img/picture3.png)
+- Le second bouton (**ADMINISTRATION**), permet d'avoir accès à la page de paramétrage de l'application.
 
-### 2.1 Le menu ADMINISTRATION 
-Ce menu nous offre la fonctionnalité qui permet de mapper les indicateurs de notre instance DHIS2 aux indicateurs de référence.
-Pour ce faire nous allons cliquer sur le lien ADMINISTRATION. La liste des indicateurs de référence regroupée en groupe d’indicateur apparait comme suit :
+NB : Avant d'afficher les tableaux il faut s'assurer que les indicateurs ont été paramétrés dans la page administration.
 
-![Menu Administration](./assets/img/picture4.png)
+![Ecran d'accueil](./assets/img/scorecardweb2.png)
 
+## 1. Administration
 
-Pour mapper les indicateurs DHIS2 aux indicateurs de référence nous devons suivre les étapes suivantes :
-#### * Étape 1 :  Cliquer sur le Lien « edit » dans la colonne « Action » du tableau
+Dans la page administration, nous avons deux (2) zones :
 
-![Menu Administration](./assets/img/picture5.png)
+1- La zone du mapping des unités d'organisations
 
+2- La zone de mapping des éléments de données et des indicateurs
 
-#### * Étape 2 : Sélectionner le type de l’indicateur et renseigner le groupe, l’indicateur le formulaire de saisie et éventuellement la désagrégation
-
-![Menu Administration](./assets/img/picture6.png)
-
-#### * Étape 3 : Cliquer sur le bouton « SUBMIT ». Le mapping est effectué et la ligne du tableau est mise à jour avec les informations de l’indicateur DHIS2.
-
-![Menu Administration](./assets/img/picture7.png)
-
-#### * 2.1 Le menu DASHBOARD 
-Ce menu nous permet de générer les graphiques en fonction des paramètres choisis.
-Pour ce faire nous allons cliquer sur le lien « DASHBOARD » du menu principal. Nous accédons ainsi à l’interface de sélection des paramètres.
-
-![Menu dashboard](./assets/img/picture8.png)
-
-La génération du Dashboard se fait selon les étapes suivantes :
+![Ecran d'administration](./assets/img/scorecardweb3.png)
 
 
-#### * Étape 1 : Sur l’interface de paramétrage, Sélectionner l’unité d’organisation et la période. Puis cliquer sur le bouton « SUBMIT »
+### 1. Mapping des unités d'organisation
 
-![Menu dashboard](./assets/img/picture9.png)
+Les niveaux d'unités d'organisations diffèrent d'un pays à l'autre. Certains pays en ont jusqu'à 4, 5, 6, etc. Pour ce faire, vous devez paramétrer les niveaux d'organisations correspondant au deecoupage de la pyramide sanitaire de votre pays.
 
-#### * Étape 2 : Les graphiques du Dashboard sont générés automatiquement et classés en fonction des groupes d’indicateurs.
+Après avoir choisir les niveaux de la pyramide sanitaire, cliquez sur le bouton **save** pour sauvegarder votre paramétrage.
 
-![Menu dashboard](./assets/img/picture10.png)
+![Niveaux sanitaires](./assets/img/scorecardweb4.png)
 
-#### * Étape 3 : Les graphiques peuvent être exportés aux formats images, pdf et excel. Pour ce faire cliquer sur le menu dans le coin droit du graphique et sélectionner le type de l’exportation comme suit : 
+### 1.  Mapping des éléments de données et indicateurs
 
+Dans la zone de mapping des éléments et indicateurs, vous verrez la liste des indicateurs, le groupe et la formule pour obtenir les valeurs en pourcentage. Ses données se trouve dans le data store de l'application.
 
-![Menu dashboard](./assets/img/picture11.png)
+Il faudra donc mapper ses indicateurs aux indicateurs et éléments de dhis2. Et aussi paramétrer les valeurs qui doivent représentées les bonnes données.
 
+Pour paramétrer une ligne, vous devez cliquer sur le bouton **Edit** en jaune juste à l'extrême droite.
 
+![Ecran d'administration](./assets/img/scorecardweb5.png)
+
+Une fois le bouton **edit** actionner, vous verrez les champs à paramétrer s'activer pour vous permettre d'apporter votre modification.
+
+Le premier champ est le type. Vous devez choisir le type (**indicateur** ou **élément de données**) dans lequel se trouve votre indicateur.
+
+![Ecran d'administration](./assets/img/scorecardweb6.png)
+
+Après voir choisi le type, vous pouvez sélectionner votre indicateur ou élément de données.
+
+![Ecran d'administration](./assets/img/scorecardweb7.png)
+
+Une fois finis les étapes de sélection de type et éléments de données, vous devez paramétrer les **couleurs**.
+
+Pour paramétrer les couleurs vous avez 3 champs de sélection :
+
+1- Le champs **Target (la cible)** qui a deux valeurs **0** et **100**.
+
+Par exemple, si vous voulez que vos valeurs qui devront avoir la couleur **verte**  soit compris entre 0 et 20, vous sélectionnez dans le **target** **0** et dans **Achieved** **20**.
+
+Et si dans le cas vous voulez avoir la couleur verte entre 100 et 70, vous sélectionnez dans le **target** **100** et dans **Achieved** **70**.
+
+2- Le champs **Achieved**, est la limite de notre target sélectionner.
+
+3- Le champ Not in track est la partie ou les valeurs prennent la couleur **rouge**
+
+**NB** : entre la valeur achieved et not in track les valeurs on la couleur **Jaune**. Et lorsqu'il n'y a pas de        valeur alors c'est la couleur **grise**.
+
+![Ecran d'administration](./assets/img/scorecardweb8.png)
+Une fois les paramétrages terminer, vous cliquez sur le bouton **save** en vert à l'extrême droite.
+
+![Ecran d'administration](./assets/img/scorecardweb9.png)
+
+**Scorecard**
+
+Le paramétrage étant finir, vous pouvez maintenant afficher votre fiche d'évaluation en fonction des niveau d'unités d'organisation.
+
+Sur cette page, nous avons une seule zone de sélection. Dans cette zone de sélection, vous pouvez choisir le niveau que vous voulez afficher (région, district, facility).
+
+![Ecran Visualisation](./assets/img/scorecardweb10.png)
+
+Une fois le niveau choisir, vous verrez afficher une autre zone de sélection qui vous permettra de sélectionner la région, le district ou le centre communautaire dont vous désirez afficher sa fiche d'évaluation.
+
+Après avoir choisir le nom, vous cliquez sur **view** pour l'affichage.
+
+**NB** : la période d'affichage est fixée au 12 derniers mois.
+
+![Ecran de Visualisation](./assets/img/scorecardweb11.png)
+
+Lorsque vous cliquez sur view, vous verrez deux (2) tableaux s'afficher.
+
+1- Tableaux des sous niveaux du niveau choisir des 12 derniers mois
+
+2- Tableaux general du niveau choisir des 12 derniers mois.
+
+Dans notre exemple ici, nous avons afficher la fiche d'évaluation de la région de BO des 12 derniers mois
+
+![Fiche d'évaluation](./assets/img/scorecardweb12.png)
+
+Fiche d'évaluation des districts de la région de Bo des 12 derniers Mois
+
+![Fiche d'évaluation](./assets/img/scorecardweb13.png)
+
+Fiche d'évaluation des 12 derniers mois de la région de BO
+
+**Télécharger les tableaux**
+
+Pour sauvegarder vos tableaux dans le but d'une analyse avec votre équipe, vous pouvez télécharger les tableaux en cliquant sur le bouton **download**
+
+![Telechargement de tableaux](./assets/img/scorecardweb14.png)
+
+![Telechargement image](./assets/img/scorecardweb15.png)
+
+Image de la carte de score de la région de Bo
 
 * * *
 
