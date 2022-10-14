@@ -6,144 +6,146 @@ layout: default
 
 # MEASURE MALARIA SCORECARD APP
 
-## FUNCTIONAL AND TECHNICAL REQUIREMENTS
+## EXIGENCES FONCTIONNELLES ET TECHNIQUES
 
-### 1.  Functional Requirements for a set of Malaria M&E scorecards for mobile devices
-        ==============================================================================
+### 1. Exigences fonctionnelles pour un ensemble de tableaux de bord S&E du paludisme pour appareils mobiles
 
-#### Users
 
-MEASURE Evaluation envisions a diverse set of potential users at the periphery of the health system, including:
 
-District level:
+#### Utilisateurs
 
--   Malaria program managers
+MEASURE Evaluation envisage un ensemble diversifié d'utilisateurs potentiels à la périphérie du système de santé, y compris :
 
--   Data managers (malaria program, and HMIS)
+Au niveau du district :
 
--   Supply chain managers (pharmaceutical and malaria commodities, such as bed nets)
+- Gestionnaires de programme de lutte contre le paludisme
 
--   District health medical officers
+- Gestionnaires de données (programme de lutte contre le paludisme et HMIS)
 
--   Vector control personnel
+- Chaîne d'approvisionnement, tels que les moustiquaires)
 
--   Disease surveillance officers
+- Médecins de district
 
-Facility level:
+- Personnel de lutte antivectorielle
 
--   Facility In-charge 
+- Officiers de surveillance des maladies
 
--   Data manager (Hospital) 
 
--   Malaria focal person (hospital) 
+Niveau établissements sanitaires:
 
--   Health service provider (Health center)
+- Gestionnaire de données
 
--   Stock managers
+- Point de contact Malaria (Hôpital) 
 
-Community level:
+- Prestataires de services de santé (Centre de santé)
 
--   Community Health Workers
+- Gestionnaires de stock
 
--   Village volunteers
 
-Content: 
+Niveau communautaire :
 
-The mobile dashboards should have up-to-date information for program indicator
+- Agents de santé communautaires
 
--   Impact indicator performance score comparisons between districts and between health facilities
+- Volontaires du village
 
--   Process indicator performance score comparisons between districts and between type of health facilities over time
+Contenu : 
 
--   Facility process performance score comparisons between services(Prevention, treatment, commodities, health outcomes and mortality) over time
+Les tableaux de bord mobiles doivent contenir des informations à jour pour l'indicateur de programme
 
--   Maps of facility coverage performance score comparisons 
+- Comparaisons des scores de performance des indicateurs d'impact entre les districts et entre les établissements de santé
 
-Functionality
+- Comparaisons des scores de performance des indicateurs de processus entre les districts et entre les types d'établissements de santé au fil du temps
 
--   See performance score in different colors in a table or map in a given period
+- Comparaisons des scores de performance des processus des établissements entre les services (prévention, traitement, produits, résultats sanitaires et mortalité) au fil du temps
 
--   See a scorecard performance for the health outcome indicators (cured, deaths) over time for one region or district or facility
+- Cartes des comparaisons des scores de performance de la couverture des établissements 
 
--   Select content to be displayed in the scorecard as needed, from a list of indicators, data elements or rates. 
 
--   select how an indicator is displayed -- i.e. as a scorecard table 
+Fonctionnalité: 
 
--   display thematic maps (if possible)
+- Voir le score de performance dans différentes couleurs dans un tableau ou une carte au cours d'une période donnée
 
--   Have multiple "views" -- i.e. toggle between different configured scorecards (2-3 tables each), for different aspects of program monitoring (e.g. treatment, prevention, commodities, health outcome, etc.)
+- Voir une performance du tableau de bord pour les indicateurs de résultats de santé (guérison, décès) au fil du temps pour une région, un district ou un établissement
 
--   make a static report (like a PDF) of a given scorecard that could be readily shared (email or posted to social networking platform)  - PDF export functionality
+- Sélectionner le contenu à afficher dans le tableau de bord selon les besoins, à partir d'une liste d'indicateurs, d'éléments de données ou de taux. 
 
--   ability to add text-based annotations (e.g. for interpretations) of individual tables
+- sélectionner le mode d'affichage d'un indicateur -- c'est-à-dire sous forme de tableau de bord 
 
--   compare results with predefined performance scores -- Apply a color legend based on predefined targets for each indicator or data element.
+- afficher des cartes thématiques (si possible)
 
--   Show GPS coordinates (e.g. distribution of health centers or CHWs engaged in malaria activities
+- Avoir plusieurs "vues" - c'est-à-dire basculer entre différents tableaux de bord configurés (2-3 tableaux chacun), pour différents aspects du suivi du programme (par exemple, traitement, prévention, produits de base, résultats pour la santé, etc.)
 
-Key performance indicators and Intervals
-![Key performance indicators and Intervals](./assets/img/indtable1.png)
-![Key performance indicators and Intervals](./assets/img/indtable1-1.png)
-The proposed score performance targets are illustrative. Each country will define their score performance targets to monitor.
+- Créer un rapport statique (comme un PDF) d'un tableau de bord donné qui pourrait être facilement partagé (e-mail ou publié sur une plate-forme de réseau social) - fonctionnalité d'exportation PDF
 
-Display of the Region scorecard table
+- Possibilité d'ajouter annotations textuelles (par exemple pour les interprétations) de tableaux individuels
 
-![Display of the Region scorecard](./assets/img/indtable2.png)
-![Display of the Region scorecard](./assets/img/indtable3.png)
+- Comparer les résultats avec les scores de performance prédéfinis -- Appliquer une légende de couleur basée sur des cibles prédéfinies pour chaque indicateur ou élément de données.
 
+- Afficher les coordonnées GPS (par exemple, répartition des centres de santé ou des ASC engagés dans des activités de lutte contre le paludisme
 
-Display of the District scorecard table
-![Display of the District scorecard](./assets/img/indtable4.png)
+Indicateurs clés de performance et intervalles
+![Indicateurs clés de performance et intervalles](./assets/img/indtable1.png)
+![Indicateurs clés de performance et intervalles](. /assets/img/indtable1-1.png)
+Les objectifs de performance de score proposés sont indicatifs. Chaque pays définit ses objectifs de performance de score à surveiller.
 
- Display of the Facility scorecard table
- ![Display of the District scorecard](./assets/img/indtable5.png)
- ![Display of the District scorecard](./assets/img/indtable6.png)
+Affichage du tableau de score de la région
 
- Display of one Region or District or Facility scorecard table over time
-![Display of the District scorecard](./assets/img/indtable7.png)
-![Display of the District scorecard](./assets/img/indtable8.png)
+![Affichage du tableau de bord de la région](./assets/img /indtable2.png)
+![Affichage du scorecard Région](./assets/img/indtable3.png)
 
 
-1.  Technical requirements for the MEASURE Malaria scorecard app
-    ============================================================
+Affichage du tableau scorecard District
+![Affichage du scorecard District](./assets/img/indtable4.png)
 
-1.  ### Phase 1: DHIS2 web based responsive mobile friendly scorecard app
+ Affichage du tableau de score Établissement
+ ![Affichage du tableau de bord District](./assets/img/indtable5.png)
+ ![Affichage du tableau de bord District](./assets/img/indtable6.png)
 
-The first phase of the project will consist of developing a REACT.js DHIS mobile friendly app that will allow mobile display of the scorecards representation of a set of indicators.
+ Affichage d'une Région ou District ou Tableau de bord de l'établissement au fil du temps
+![Affichage du tableau de bord du district](./assets/img/indtable7.png)
+![Affichage du e District scorecard](./assets/img/indtable8.png)
 
-### Configuration interface:
 
--   Will allow the selection of a DHIS2 indicator and data element group to be used for scorecard generation.
+# 1. Exigences techniques pour l'application MEASURE Malaria scorecard
+    ========================= ====================================
 
--   Ordering of the scorecards
+1. ### Phase 1 : DHIS2 basé sur le Web et adapté aux mobiles app
 
-### Scorecard mobile interface
+La première phase du projet consistera à développer une application conviviale mobile REACT.js DHIS qui permettra l'affichage mobile de la représentation des tableaux de bord d'un ensemble d'indicateurs.
 
--   Display of mobile friendly scorecard automatically adjusting to the screen dimensions (Mobile or Desktop)
+### Interface de configuration :
 
-### Report module
+- Permettra la sélection d'un indicateur DHIS2 et d'un groupe d'éléments de données à utiliser pour la génération du tableau de bord.
 
--   Possibility to download the scorecards in PDF or image format.
+- Commande des tableaux de bord
 
-1.  ### Phase 2: Android scorecard view app 
+### Interface mobile
 
-During this initial phase an android app will be developed that will only download the scorecard generated using the web based DHIS2 mobile friendly app in a PDF or Image format and display it on the mobile phone offline.
+- Affichage du tableau de bord adapté aux mobiles s'ajustant automatiquement aux dimensions de l'écran (Mobile ou Desktop)
 
-1.  ### Phase 3: Android fully configurable dynamic offline scorecard app
+### Module de rapport
 
-During this phase, the app will evolve to allow download of the metadata and a certain amount of data related to a selected set of indicators for a certain number of periods to the mobile device and allow for use in a predefined set of scorecard tables designed to be used on a mobile phone app.
+- Possibilité de télécharger les tableaux de bord au format PDF ou image.
 
-1.  ### Programming language:
+1. ### Phase 2 : Application de visualisation de tableau de bord Android 
 
-During phases 1 the DHIS2 mobile friendly app will be developed using JavaScript programming language and the following libraries:
+Au cours de cette phase initiale, une application Android sera développée qui ne fera que télécharger le tableau de bord généré à l'aide de l'application mobile conviviale DHIS2 basée sur le Web au format PDF ou Image et l'afficher sur le téléphone mobile hors ligne.
 
--   REACT.js for the app development
+1. ### Phase 3 : Application de tableau de bord dynamique hors ligne entièrement configurable pour Android
 
--   Bootstrap for the template engine
+Au cours de cette phase, l'application évoluera pour permettre le téléchargement des métadonnées et d'une certaine quantité de données liées à un ensemble d'indicateurs sélectionnés pendant un certain nombre de périodes jusqu'au appareil mobile et permettre une utilisation dans un ensemble prédéfini de tableaux de scorecard conçus pour être utilisés sur une application de téléphonie mobile.
 
--   Highchart library for dashboard charts generation
+1. ### Langage de programmation :
 
-At the phase 2 and 3 the Android app will be developed using the JAVA programming language.
+cours des phases 1, l'application mobile DHIS2 sera développée à l'aide du langage de programmation JavaScript et des bibliothèques suivantes :
+
+- REACT.js pour le développement de l'application
+
+- Bootstrap pour le moteur de modèle
+
+- Bibliothèque Highchart pour la génération de tableaux de bord
+
+A la phase 2 et 3 l'application Android sera développée en utilisant le langage de programmation JavaScript.
 
 
 
