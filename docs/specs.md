@@ -4,142 +4,1710 @@ layout: default
 [Accueil](./index.md) | [Apropos](./about.md) | Specifications | [Guides](./userguide.md)
 
 
-# **Spécifications techniques pour un ensemble de tableaux de bord de suivi et d'évaluation du paludisme pour les appareils mobiles**
+**Présentation de l'application**
 
+Malaria score card est une application professionnelle qui assure une meilleure présentation des fiches d'évaluations spécifique à la maladie malaria. Les Données sont paramétrées au préalable dans la menue administration en fonction des indicateurs ensuite, elle présente la fiche d'évaluation sous forme de tableau dans le menu score card avec les données des différents indicateurs paramétrés.
 
-## 1. Users
+**Lancer l'application**
 
-MEASURE Evaluation envisage un ensemble diversifié d'utilisateurs potentiels à la périphérie du système de santé, y compris
+Dans le menu de dhis2, cliquez sue le logo de l'application score card pour ouvrir l'app.
 
-### Niveau District:
-- Les responsables de programme de lutte contre le paludisme
-Gestionaires de données sur le paludisme
-- Responsables de la chaîne d'approvisionnement (produits pharmaceutiques et produits antipaludiques, tels que les moustiquaires) 
-- Médecins de districts
-- Personnel de lutte antivectorielle
-- Officiers de surveillance des maladies
+**Présentation de la page d'accueil de l'apps**
 
-### Niveau de l'établissement:
+Une fois l'application ouvert, vous verrez une page vide et deux (2) boutons :
 
-- Responsable de l'établissement
-- Gestionnaire de données (hôpital)
-- Point focal paludisme (hôpital)
-- Prestataire de services de santé (centre de santé)
-- Responsables des stocks
+- Le premier bouton (**SCORE CARD**) est le bouton permettant d'afficher les fiches d'évaluation en fonction des niveaux d'unités d'organisations.
 
-### Niveau communautaire :
+- Le second bouton (**ADMINISTRATION**), permet d'avoir accès a la page paramétrage de l'application.
 
-- Agents de santé communautaire
-- Volontaires du village
+NB : avant d'afficher les tableaux il faut s'assurer que les indicateurs ont été paramétrer dans la page administration.
 
-### Contenu :
+**Administration**
 
-Les tableaux de bord mobiles doivent contenir des informations à jour pour les indicateurs du programme
+Dans la page administration, nous avons deux (2) zones :
 
-- Comparaisons géographiques (diagramme à barres montrant les résultats par zone de couverture, sous-district, district)
-- Tendances dans le temps - comparaison des valeurs des établissements dans un district au fil du temps pour les indicateurs prioritaires.
-- Tendances au fil du temps - un indicateur pour un établissement de santé (pour chaque établissement pour analyser les données et prendre des décisions)
-- Cartes thématiques
+1- La zone du mapping des unités d'organisations
 
-### Fonctionnalité
+2- La zone de mapping des éléments et indicateurs
 
-- Voir la cohérence des données, la qualité sur le tableau de bord en utilisant les règles de validation (par exemple # de CPN1 vs # de MII distribuées aux femmes enceintes) et DHIS2/DQR app
-- voir 2-3 graphiques sur les tableaux de bord à la fois, selon la taille de l'écran et/ou les préférences de l'utilisateur
-- voir 2-3 indicateurs sur le même graphique, par exemple les doses de vaccin administrées pour différents antigènes au cours d'une période de rapport donnée et au fil du temps.
-- modifier le contenu au besoin, à partir d'une liste d'indicateurs et d'éléments de données.
-- sélectionner le mode d'affichage d'un indicateur - c'est-à-dire sous forme de tableau, de graphique ou de graphique
-- afficher des cartes thématiques (si possible)
-- Avoir plusieurs "vues" - c'est-à-dire basculer entre différents tableaux de bord configurés (2-3 graphiques chacun), pour différents aspects du suivi traitement, prévention, gestion des produits, etc.)
-- créer un rapport statique (comme un PDF) d'un tableau de bord donné qui pourrait être facilement partagé (e-mail ou publié sur une plateforme de réseautage social)
-- possibilité d'ajouter des annotations textuelles (par exemple pour les interprétations) de graphiques individuels
-- comparent les résultats avec des cibles prédéfinies
-- Afficher les coordonnées GPS (par ex. répartition des centres de santé ou des ASC engagés dans des activités de lutte contre le paludisme)
+**1\. Mapping des unités d'organisation**
 
-### Éléments de données/indicateurs (appropriés à la périphérie du système de santé)
+Les niveaux des unités d'organisations diffèrent d'un pays à l'autre. Certains pays ont jusqu'à 4, 5, 6 ... niveaux. Pour ce fait vous devez paramétrer les niveaux d'organisations en fonction de votre pays.
 
-| Prévention | du paludisme Dépistage du | paludisme Cas | paludisme Traitement | paludisme Disponibilité des produits | antipaludiques Mortalité due |
-| --- | --- | --- | --- | --- | --- |
-| 1.1 : Nombre d'enfants de moins de 5 ans ayant reçu des MII | 2.1 : Nombre de visites OPD pour les enfants (\< 5) | 3.1 : Nombre d'enfants (\< 5) avec paludisme confirmé (tes positifs au TDR) |  Nombre d'enfants (\< 5) atteints de paludisme confirmé recevant des ACT | d'établissements en rupture de stock d'ACT pendant 7 jours consécutifs au cours du mois précédent |  Nombre |
-|  :Nombre de femmes enceintes ayant reçu des MII | 2.2 : Nombre d'enfants (\< 5) ayant de la fièvre | 3.2 : Nombre d'enfants (5-14) atteints de paludisme confirmé (testés positifs au TDR) | 4.2 : Nombre d'enfants (5-14) atteints de paludisme confirmé recevant les ACT | 5.2 : Nombre d'établissements en rupture de stock de TDR pendant 7 jours consécutifs au cours du mois précédent | Autre précisez |
-| 1.3 : Nombre de moustiquaires distribuées aux femmes enceintes | 2.3 : Nombre d'enfants (5-14) ayant de la fièvre | 3.3 : Nombre de personnes (15 +) avec paludisme confirmé (testé positif avec TDR) | 4.3 : Nombre de personnes (15+) avec paludisme confirmé recevant des ACT | 5.3 : Nombre d'établissements avec rupture de stock de SP pendant 7 jours consécutifs au cours du mois passé |
+**Par exemple** si le niveau région de votre pays est national alors vous sélectionnez national, si c'est district alors vous sélectionnez district.
+
+Après avoir choisir les niveaux en fonction de votre dhis2 vous cliquez sur le bouton **save** pour sauvegarder votre paramétrage.
+
+**2.**  **Mapping des éléments de données et indicateurs**
+
+Dans la zone de mapping des éléments et indicateurs, vous verrez la liste des indicateurs, le groupe et la formule pour obtenir les valeurs en pourcentage. Ses données se trouve dans le data store de l'application.
+
+Il faudra donc mapper ses indicateurs aux indicateurs et éléments de dhis2. Et aussi paramétrer les valeurs qui doivent représentées les bonnes données.
+
+Pour paramétrer une ligne, vous devez cliquer sur le bouton **edit** en jaune juste à l'extrême droite.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image005.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image006.png)
+
+Une fois le bouton **edit** actionner, vous verrez les champs à paramétrer s'activer pour vous permettre d'apporter votre modification.
+
+Le premier champ est le type. Vous devez choisir le type (**indicateur** ou **élément de données**) dans lequel se trouve votre indicateur.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image007.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image008.png)
+
+Après voir choisir le type, vous pouvez sélectionner votre indicateur ou élément de données.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image009.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image010.png)
+
+Une fois finis les étapes de sélection de type et éléments de données, vous devez paramétrer les **couleurs**.
+
+Pour paramétrer les couleurs vous avez 3 champs de sélection :
+
+1- Le champs **Target (la cible)** qui a deux valeurs **0** et **100**.
+
+Par exemple, si vous voulez que vos valeurs qui devront avoir la couleur **verte**  soit compris entre 0 et 20, vous sélectionnez dans le **target** **0** et dans **Achieved** **20**.
+
+Et si dans le cas vous voulez avoir la couleur verte entre 100 et 70, vous sélectionnez dans le **target** **100** et dans **Achieved** **70**.
+
+2- Le champs **Achieved**, est la limite de notre target sélectionner.
+
+3- Le champ Not in track est la partie ou les valeurs prennent la couleur **rouge**
+
+**NB** : entre la valeur achieved et not in track les valeurs on la couleur **Jaune**. Et lorsqu'il n'y a pas de        valeur alors c'est la couleur **grise**.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image011.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image012.png)
+
+Une fois les paramétrages terminer, vous cliquez sur le bouton **save** en vert à l'extrême droite.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image005.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image013.png)
+
+**Score card**
+
+Le paramétrage étant finir, vous pouvez maintenant afficher votre fiche d'évaluation en fonction des niveau d'unités d'organisation.
+
+Sur cette page, nous avons une seule zone de sélection. Dans cette zone de sélection, vous pouvez choisir le niveau que vous voulez afficher (région, district, facility).
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image014.png)
+
+Une fois le niveau choisir, vous verrez afficher une autre zone de sélection qui vous permettra de sélectionner la région, le district ou le centre communautaire dont vous désirez afficher sa fiche d'évaluation.
+
+Après avoir choisir le nom, vous cliquez sur **view** pour l'affichage.
+
+**NB** : la période d'affichage est fixée au 12 derniers mois.
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image015.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image016.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image017.png)
+
+Lorsque vous cliquez sur view, vous verrez deux (2) tableaux s'afficher.
+
+1- Tableaux des sous niveaux du niveau choisir des 12 derniers mois
+
+2- Tableaux general du niveau choisir des 12 derniers mois.
+
+Dans notre exemple ici, nous avons afficher la fiche d'évaluation de la région de BO des 12 derniers mois
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image018.png)
+
+Fiche d'évaluation des districts de la région de Bo des 12 derniers Mois
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image019.png)
+
+Fiche d'évaluation des 12 derniers mois de la région de BO
+
+**Télécharger les tableaux**
+
+Pour sauvegarder vos tableaux dans le but d'une analyse avec votre équipe, vous pouvez télécharger les tableaux en cliquant sur le bouton **download**
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image020.png)![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image021.png)
+
+![](file:////Users/rtohouri/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image022.png)
+
+Image score card de la région de BoMEASURE MALARIA SCORECARD APP
+
+FUNCTIONAL AND TECHNICAL REQUIREMENTS
+
+1.  Functional Requirements for a set of Malaria M&E scorecards for mobile devices
+    ==============================================================================
+
+Users
+
+MEASURE Evaluation envisions a diverse set of potential users at the periphery of the health system, including:
+
+District level:
+
+-   Malaria program managers
+
+-   Data managers (malaria program, and HMIS)
+
+-   Supply chain managers (pharmaceutical and malaria commodities, such as bed nets)
+
+-   District health medical officers
+
+-   Vector control personnel
+
+-   Disease surveillance officers
+
+Facility level:
+
+-   Facility In-charge 
+
+-   Data manager (Hospital) 
+
+-   Malaria focal person (hospital) 
+
+-   Health service provider (Health center)
+
+-   Stock managers
+
+Community level:
+
+-   Community Health Workers
+
+-   Village volunteers
+
+Content: 
+
+The mobile dashboards should have up-to-date information for program indicator
+
+-   Impact indicator performance score comparisons between districts and between health facilities
+
+-   Process indicator performance score comparisons between districts and between type of health facilities over time
+
+-   Facility process performance score comparisons between services(Prevention, treatment, commodities, health outcomes and mortality) over time
+
+-   Maps of facility coverage performance score comparisons 
+
+Functionality
+
+-   See performance score in different colors in a table or map in a given period
+
+-   See a scorecard performance for the health outcome indicators (cured, deaths) over time for one region or district or facility
+
+-   Select content to be displayed in the scorecard as needed, from a list of indicators, data elements or rates. 
+
+-   select how an indicator is displayed -- i.e. as a scorecard table 
+
+-   display thematic maps (if possible)
+
+-   Have multiple "views" -- i.e. toggle between different configured scorecards (2-3 tables each), for different aspects of program monitoring (e.g. treatment, prevention, commodities, health outcome, etc.)
+
+-   make a static report (like a PDF) of a given scorecard that could be readily shared (email or posted to social networking platform)  - PDF export functionality
+
+-   ability to add text-based annotations (e.g. for interpretations) of individual tables
+
+-   compare results with predefined performance scores -- Apply a color legend based on predefined targets for each indicator or data element.
+
+-   Show GPS coordinates (e.g. distribution of health centers or CHWs engaged in malaria activities
+
+Key performance indicators and Intervals
+
+|\
  |
-| 1.4 : Nombre de moustiquaires campagne de masse | 2.4 : Nombre de personnes (15+) ayant de la fièvre | 3.4 : Numbe r de femmes enceintes atteintes de paludisme confirmé (testées positives au TDR) | 4.4 : Nombre d'enfants (\<5) recevant des ACT | 5.4 : Nombre d'établissements avec Rupture de stock d'artésunate injectable pendant 7 jours consécutifs au cours du dernier mois |
+
+Achieved (Green)
+
  |
-| 1.5 : Nombre total de moustiquaires( ITNs) distribuées | 2.5 : Nombre d'enfants (\< 5) avec fièvre testés (TDR ou microscopie) | 3.5 : Nombre de cas testés négatifs avec TDR dans toutes les catégories | 4.5 : Nombre d'enfants (5-14) recevant des ACT | 5.5 : Nombre d'établissements avec Rupture de stock d'artestunate rectal pendant 7 jours consécutifs au cours du dernier mois |
+
+In progress (Yellow)
+
  |
-| 1.6 Activités de lutte antivectorielle (?) | 2.6 : Nombre d'enfants (5-14) avec fièvre testés (TDR ou microscopie) | 3.6 : Nombre de cas confirmés de paludisme | 4.6 : Nombre de personnes (15+) recevant des ACT | 5.6 : Nombre d'établissements en rupture de stock d'ITN pendant 7 jours consécutifs au cours du mois précédent |
+
+Not in track (Red)
+
  |
-| 1.7 Couverture du traitement préventif intermittent du paludisme pendant la grossesse (TPIp)
- | 2.7 : Nombre de personnes (15+) ayant subi un test de fièvre (TDR) ou microscopie) | 3.7 : Nombre de cas présumés de paludisme a cas | 4.7 : Nombre de cas graves référés | 5.7 Nombre d'établissements disposant d'un inventaire de MII disponibles |
-|
- | 3.8 : Nombre d'enfants (\<5) atteints de paludisme grave | 4.8 : Nombre de cas testés négatifs avec un TDR recevant des ACT | 5.8 Nombre d'établissements disposant d'un inventaire disponible de ACT |
-|
- | 3.9 : Nombre d'enfants (5-14) atteints de paludisme grave | 4.9 : Nombre de cas confirmés de paludisme guéris après un traitement par ACT |
-|
- | 3.10 : Nombre de personnes (15+) atteintes de paludisme grave | 4.10 : Nombre de cas de paludisme grave traités et guéris |
+
+No Data (Grey)
+
  |
 |
- | 3.11 : Nombre des cas de paludisme grave référés |
+
+Impact indicators
+
+ |
 |
- 
 
-# **DOCUMENT DE SPÉCIFICATIONS TECHNIQUES**
+Change in estimated malaria incidence (2020 -- 2024)
 
-## Introduction
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Change in estimated malaria mortality (2020 -- 2024)
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Change in estimated malaria cases treated and cured (2020 -- 2024)
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Process indicators
+
+ |
+|
+
+Prevention
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of nets distributed
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+% of fever/suspected cases tested with RDT or microscopy
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+% pregnant women provided IPTp at more than 12 week gestational age
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 2 only
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 3
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+% of severe malaria cases referred for treatment
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Commodities management
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of health facilities with stock out
+
+ |
+
+70% and Greater
+
+ |
+
+[40% -69%]
+
+ |
+
+39% and less
+
+ |\
+ |
+|
+
+Number of days of ACT stock out
+
+ |
+
+0
+
+ |
+
+Less than 6
+
+ |
+
+7 and more
+
+ |\
+ |
+|
+
+Number of days of SP stock out
+
+ |
+
+0
+
+ |
+
+Less than 6
+
+ |
+
+7 and more
+
+ |\
+ |
+|
+
+Number of days of Nets stock out
+
+ |
+
+0
+
+ |
+
+Less than 6
+
+ |
+
+7 and more
+
+ |\
+ |
+
+The proposed score performance targets are illustrative. Each country will define their score performance targets to monitor.
+
+Display of the Region scorecard table
+
+|\
+ |
+
+District 1
+
+ |
+
+District 2
+
+ |
+
+District 3
+
+ |
+
+District 4
+
+ |
+|
+
+Impact indicators
+
+ |
+|
+
+Change in estimated malaria incidence (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria mortality (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria cases treated and cured (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Process indicators
+
+ |
+|
+
+Prevention
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of nets distributed
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of fever cases tested with RDT
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women provided IPTp at more than 12 week gestational age
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 2 only
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 3
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of severe malaria cases referred for treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Commodities management
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of health facilities with stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of ACT stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of SP stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of Nets stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+
+Display of the District scorecard table
+
+|\
+ |
+
+Facility 1
+
+ |
+
+Facility 2
+
+ |
+
+Facility 3
+
+ |
+
+Facility 4
+
+ |
+|
+
+Impact indicators
+
+ |
+|
+
+Change in estimated malaria incidence (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria mortality (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria cases treated and cured (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Process indicators
+
+ |
+|
+
+Prevention
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of nets distributed
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of fever cases tested with RDT
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women provided IPTp at more than 12 week gestational age
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 2 only
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 3
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of severe malaria cases referred for treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Commodities management
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of health facilities with stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of ACT stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of SP stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of Nets stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+
+Display of the Facility scorecard table
+
+|\
+ |
+
+Facilty
+
+ |
+
+CHW 1
+
+ |
+
+CHW 2
+
+ |
+
+CHW 3
+
+ |
+|
+
+Impact indicators
+
+ |
+|
+
+Change in estimated malaria incidence (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria mortality (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria cases treated and cured (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Process indicators
+
+ |
+|
+
+Prevention
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of nets distributed
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of fever cases tested with RDT
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women provided IPTp at more than 12 week gestational age
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 2 only
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 3
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of severe malaria cases referred for treatment
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Commodities management
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of health facilities with stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of ACT stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of SP stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of Nets stock out
+
+ |\
+ |\
+ |\
+ |\
+ |
+
+Display of one Region or District or Facility scorecard table over time
+
+|\
+ |
+
+Jan
+
+ |
+
+Feb
+
+ |
+
+Mar
+
+ |
+
+Apr
+
+ |
+
+May
+
+ |
+
+Jun
+
+ |
+
+Jul
+
+ |
+
+Sep
+
+ |
+
+Oct
+
+ |
+
+Nov
+
+ |
+
+Dec
+
+ |
+|
+
+Impact indicators
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria incidence (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria mortality (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Change in estimated malaria cases treated and cured (2020 -- 2024)
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Process indicators
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Prevention
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of nets distributed
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of fever cases tested with RDT
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women provided IPTp at more than 12 week gestational age
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 2 only
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% pregnant women receiving IPT x 3
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Treatment
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of malaria confirmed cases treated with first-line antimalarial treatment according to national policy
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of severe malaria cases referred for treatment
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Commodities management
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+% of health facilities with stock out
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of ACT stock out
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of SP stock out
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Number of days of Nets stock out
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+
+1.  Technical requirements for the MEASURE Malaria scorecard app
+    ============================================================
+
+1.  ### Phase 1: DHIS2 web based responsive mobile friendly scorecard app
+
+The first phase of the project will consist of developing a REACT.js DHIS mobile friendly app that will allow mobile display of the scorecards representation of a set of indicators.
+
+### Configuration interface:
+
+-   Will allow the selection of a DHIS2 indicator and data element group to be used for scorecard generation.
+
+-   Ordering of the scorecards
+
+### Scorecard mobile interface
+
+-   Display of mobile friendly scorecard automatically adjusting to the screen dimensions (Mobile or Desktop)
+
+### Report module
+
+-   Possibility to download the scorecards in PDF or image format.
+
+1.  ### Phase 2: Android scorecard view app 
+
+During this initial phase an android app will be developed that will only download the scorecard generated using the web based DHIS2 mobile friendly app in a PDF or Image format and display it on the mobile phone offline.
+
+1.  ### Phase 3: Android fully configurable dynamic offline scorecard app
+
+During this phase, the app will evolve to allow download of the metadata and a certain amount of data related to a selected set of indicators for a certain number of periods to the mobile device and allow for use in a predefined set of scorecard tables designed to be used on a mobile phone app.
+
+1.  ### Programming language:
+
+During phases 1 the DHIS2 mobile friendly app will be developed using JavaScript programming language and the following libraries:
+
+-   REACT.js for the app development
+
+-   Bootstrap for the template engine
+
+-   Highchart library for dashboard charts generation
+
+At the phase 2 and 3 the Android app will be developed using the JAVA programming language.
+
+1.  Implementation timeline
+    =======================
 
 |
-Cette activité aidera à générer les évidences pour informer la planification stratégique de PMI et d'autres parties prenantes et contribuera également à soutenir les efforts des pays dans l'utilisation des données pour la prise de décision. Cette activité abordera l'une des approches stratégiques de PMI qui est "Améliorer la capacité des pays à collecter et utiliser l'information". |
-| --- |
 
-La portée de ce travail est de fournir un tableau de bord mobile convivial au niveau périphérique visant à améliorer la capacité des agents de santé à analyser et à utiliser les données pour la prise de décision.
+Feature
 
-## Description de l'activité
+ |
 
-1.
-## Phase 1 : Application de tableau de bord conviviale et réactive basée sur le Web DHIS2 :
+Description
 
-La première phase du projet consistera à développer une application conviviale mobile REACT.js DHIS2 qui comportera un module de configuration et une représentation de tableau de bord d'un ensemble d'indicateurs.
+ |
 
-1.
-### Interface de configuration :
+Development time
 
-- Permettra la sélection d'un groupe d'indicateurs DHIS2 à utiliser pour la génération du tableau de bord.
-- Permettra de définir le type de graphiques et la sélection des indicateurs à afficher sur ce graphique.
-- Ordre des graphiques
+ |
 
-1.
-### Interface du tableau de bord
+Responsible
 
-- Affichage d'un tableau de bord adapté aux mobiles s'ajustant automatiquement aux dimensions de l'écran (Mobile ou Desktop)
-- Possibilité de passer du mode graphique au mode tableau ainsi qu'à la carte
-- Possibilité d'explorer d'un niveau d'unité d'organisation supérieur à inférieur
+ |
+|
 
-1.
-### Module de rapport
+January
 
-- Possibilité de télécharger le tableau de bord au format PDF ou image.
+ |
 
-1.
-## Phase 2 : Application d'affichage du tableau de bord Android
+February
 
-Au cours de cette phase initiale, une application Android sera développée qui ne téléchargera que le tableau de bord généré à l'aide de l'application mobile conviviale DHIS2 basée sur le Web au format PDF ou Image et l'affichera sur le téléphone mobile hors ligne.
+ |
+|
 
-1.
-## Phase 3 : Application de tableau de bord dynamique hors ligne entièrement configurable pour Android
+Weeks
 
-Au cours de cette phase, l'application évoluera pour permettre le téléchargement des métadonnées et d'une certaine quantité de données liées à un ensemble sélectionné d'indicateurs pendant un certain nombre de périodes sur l'appareil mobile et permettre utiliser dans un ensemble prédéfini de graphiques conçus pour être utilisés sur l'application de téléphonie mobile.
+ |
 
-## Spécifications techniques
+Weeks
 
-### Langage de programmation :
+ |
+|
 
-Au cours des phases 1, l'application mobile DHIS2 sera développée à l'aide du langage de programmation JavaScript et des bibliothèques suivantes :
+1
 
-- REACT.js pour le développement de l'application
-- Bootstrap pour le moteur de modèle
-- Highchart pour la génération de tableaux de bord
+ |
 
-Aux phases 2 et 3, l'Android L'application sera développée en utilisant le langage de programmation JavaScript.
+2
+
+ |
+
+3
+
+ |
+
+4
+
+ |
+
+1
+
+ |
+
+2
+
+ |\
+ |\
+ |
+|
+
+PDF scorecard generation module
+
+ |\
+ |\
+ |
+
+x
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Scrorecards implementations
+
+ |\
+ |\
+ |
+
+x
+
+ |
+
+x
+
+ |
+
+x
+
+ |\
+ |\
+ |\
+ |
+|
+
+Legend implementation 
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+orgunit comparisons chart
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Time based scorecards comparisons over time
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Orgunit based scorecards
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+social features - sharing and comments
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+|
+
+Testing of the web based DHIS2 app
+
+ |
+
+Collecting feedback and improvement from end users
+
+ |\
+ |\
+ |
+
+x
+
+ |
+
+x
+
+ |\
+ |\
+ |\
+ |
+|
+
+Android app v1
+
+ |
+
+PDF version the web based scorecard
+
+ |\
+ |\
+ |\
+ |
+
+x
+
+ |\
+ |\
+ |\
+ |
+|
+
+Testing android app v1
+
+ |\
+ |\
+ |\
+ |\
+ |
+
+x
+
+ |
+
+x
+
+ |\
+ |\
+ |
+|
+
+Android app v2
+
+ |
+
+Dynamic scorecard generation based on metadata and data on the mobile device
+
+ |\
+ |\
+ |\
+ |\
+ |
+
+x
+
+ |
+
+x
+
+ |\
+ |
+|
+
+Testing android app v1
+
+ |\
+ |\
+ |\
+ |\
+ |\
+ |\
+ |
+
+x
+
+ |\
+ |
 
 
 * * *
