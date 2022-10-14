@@ -5,7 +5,7 @@ Accueil | [Apropos](./about.md) | [Specifications](./specs.md) | [Guides](./user
 
 
 * * * 
-# Malaria Scorecard app à été classé 3eme a la Compétition dea apps Web et Androids à la conférence annuelle DHIS2 de 2021
+# Classé 3eme à la Compétition des apps Web et Android à la conférence annuelle DHIS2 de 2021.
 * * *
 
 
